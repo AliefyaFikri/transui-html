@@ -274,6 +274,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
+
 .register-sec10 {
   display: flex;
   padding: 9.177352905273438px;
@@ -331,7 +332,29 @@
   cursor: pointer;
   background-color: var(--dl-color-default-primary2);
 }
+.page-text17 {
+  color: var(--dl-color-neutral-almostblack);
+}
+.textCreateNew{
+  color: var(--dl-color-default-primary1);
 
+}
+.textCreateNew:hover{
+  cursor: pointer;
+  color: var(--dl-color-default-primary2);
+}
+.page-text16 {
+  color: rgba(17, 17, 17, 1);
+  font-size: 16.060367584228516px;
+  font-style: Regular;
+  padding-top:20px;
+  text-align: center;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
 @media(max-width: 991px) {
   .register-i-phone-plus3 {
     top: 0px;

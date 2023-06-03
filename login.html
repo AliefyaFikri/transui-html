@@ -47,9 +47,9 @@
 
       <div class="register-container">
         <div class="register-i-phone-plus3">
-          <span class="register-text" onclick="redirectHome()"><span>TransUI</span></span>
+          <span class="register-text" onclick="redirectIndex()"><span>TransUI</span></span>
           <script>
-            function redirectHome() {
+            function redirectIndex() {
               window.location.href = "index.html";
             }
           </script>
@@ -72,9 +72,14 @@
                 </div>
                 <input type="password" class="page-sec6" placeholder="************" />                
               </div>
-              <div class="page-sec7 button">
+              <div class="page-sec7 button" onclick="redirectHome()">
                 <span class="page-text14"><span>Login</span></span>
               </div>
+              <script>
+                function redirectHome() {
+                  window.location.href = "home.html";
+                }
+              </script>
               <span class="page-text16">
                 <span class="page-text17">Don’t have account?</span>
                 <span onclick="redirectSignUp()" class="textCreateNew">Create new account</span>
