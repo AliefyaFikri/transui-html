@@ -43,11 +43,11 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
       data-tag="font"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <div>
-      <link href="./top-up.css" rel="stylesheet" />
+      <link href="./css/top-up.css" rel="stylesheet" />
 
       <div class="top-up-container">
         <div class="top-up-i-phone-plus7">
@@ -71,53 +71,62 @@
             class="top-up-rectangle22"
           />
           <span class="top-up-text02"><span>Top Up Amount</span></span>
-          <span class="top-up-text04"><span>Rp0</span></span>
+          
+            <div class="top-up-text04">
+              <!--span>Rp0</span-->
+              <div id="display" ></div>
+            </div>
+          
+          
           <div class="top-up-group83">
             <div class="top-up-group75">
-              <span class="top-up-text06">1</span>
+              <button class="top-up-text06 btn" id="1">1</button>
             </div>
             <div class="top-up-group76">
-              <span class="top-up-text07">2</span>
+              <button class="top-up-text07 btn" id="2">2</button>
             </div>
             <div class="top-up-group77">
-              <span class="top-up-text08">3</span>
+              <button class="top-up-text08 btn" id="3">3</button>
             </div>
           </div>
-          <div class="top-up-group86"><span class="top-up-text09">4</span></div>
-          <div class="top-up-group87"><span class="top-up-text10">5</span></div>
-          <div class="top-up-group88"><span class="top-up-text11">6</span></div>
-          <div class="top-up-group89"><span class="top-up-text12">7</span></div>
-          <div class="top-up-group90"><span class="top-up-text13">8</span></div>
-          <div class="top-up-group80"><span class="top-up-text14">9</span></div>
-          <div class="top-up-group78"><span class="top-up-text15">0</span></div>
+          <div class="top-up-group86"><button class="top-up-text09 btn" id="4">4</button></div>
+          <div class="top-up-group87"><button class="top-up-text10 btn" id="5">5</button></div>
+          <div class="top-up-group88"><button class="top-up-text11 btn" id="6">6</button></div>
+          <div class="top-up-group89"><button class="top-up-text12 btn" id="7">7</button></div>
+          <div class="top-up-group90"><button class="top-up-text13 btn" id="8">8</button></div>
+          <div class="top-up-group80"><button class="top-up-text14 btn" id="9">9</button></div>
+          <div class="top-up-group78"><button class="top-up-text15 btn" id="0">0</button></div>
           <div class="top-up-group79">
-            <span class="top-up-text16"><span>000</span></span>
+            <button class="top-up-text16 btn" id="000">000</button>
           </div>
           <div class="top-up-group84" onclick="window.location.href='profile.html'">
             <span class="top-up-text18"><span>Confirm</span></span>
           </div>
           <div class="top-up-group85">
-            <div class="top-up-group801"></div>
-            <div class="top-up-group">
-              <img
-                src="public/external/vector1193-cgs.svg"
-                alt="Vector1193"
-                class="top-up-vector2"
-              />
-              <img
-                src="public/external/vector1193-q36d.svg"
-                alt="Vector1193"
-                class="top-up-vector3"
-              />
-              <img
-                src="public/external/vector1193-8yyh.svg"
-                alt="Vector1193"
-                class="top-up-vector4"
-              />
-            </div>
+            <button class="top-up-group801 btn" id="backspace">
+              <div class="top-up-group">
+                <img
+                  src="public/external/vector1193-cgs.svg"
+                  alt="Vector1193"
+                  class="top-up-vector2"
+                />
+                <img
+                  src="public/external/vector1193-q36d.svg"
+                  alt="Vector1193"
+                  class="top-up-vector3"
+                />
+                <img
+                  src="public/external/vector1193-8yyh.svg"
+                  alt="Vector1193"
+                  class="top-up-vector4"
+                />
+              </div>
+            </button>
+            
           </div>
         </div>
       </div>
     </div>
+    <script src="top-up.js"></script>
   </body>
 </html>

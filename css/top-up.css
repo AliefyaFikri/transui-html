@@ -192,6 +192,11 @@
   align-items: flex-start;
   flex-shrink: 1;
   background-color: rgba(255, 255, 255, 1);
+  
+}
+
+.btn:hover{
+  cursor: pointer;
 }
 .top-up-text09 {
   top: 13px;
