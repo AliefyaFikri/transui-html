@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="english">
   <head>
-    <title>exported project</title>
+    <title>TransUI</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
@@ -47,18 +47,26 @@
       data-tag="font"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <style>
+      #map{
+        top: 100px;
+        width: 420px;
+        height: 496px;
+        z-index: 0;
+      }
+    </style>
   </head>
   <body>
     <div>
       <link href="./css/home.css" rel="stylesheet" />
 
       <div class="home-container">
-        <div class="home-i-phone-plus6">
-          <img
+        <div class="home-i-phone-plus6" >
+          <!--img
             src="public/external/e22e2ab4a66a4ca194f11b3e0fe32c9619860-znp8-500w.png"
             alt="E22E2AB4A66A4CA194F11B3E0FE32C9619860"
             class="home-e22e2ab4a66a4ca194f11b3e0fe32c961"
-          />
+          /-->
           <div class="home-e22e2ab4a66a4ca194f11b3e0fe32c961" id="map" >
           </div>
 
@@ -69,6 +77,13 @@
               attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>',
             })
           </script-->
+          <script>
+            const map = L.map('map').setView([-6.3604,106.8270], 15);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+                maxZoom: 18,
+            }).addTo(map);
+          </script>
           <img
             src="public/external/rectangle41139860-hxpe-200h.png"
             alt="Rectangle41139860"
@@ -139,7 +154,7 @@
                 </div>
               </div>
             </div>
-            <div class="home-group5">
+            <div class="home-group5" onclick="window.location.href='bikun.html'">
               <span class="home-text06"><span>Bikun</span></span>
               <div class="home-group4">
                 <img
@@ -154,7 +169,7 @@
                 />
               </div>
             </div>
-            <div class="home-group11">
+            <div class="home-group11" onclick="window.location.href='krl.html'">
               <span class="home-text08"><span>KRL</span></span>
               <div class="home-group10">
                 <img

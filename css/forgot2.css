@@ -1,4 +1,4 @@
-.page-container {
+.forgot2-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -6,21 +6,17 @@
   align-items: center;
   flex-direction: column;
 }
-.page-i-phone-plus2 {
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  width: 482px;
+.forgot2-i-phone-plus13 {
+  width: 412px;
   height: 736px;
-  margin: auto;
   display: flex;
   overflow: hidden;
-  position: absolute;
+  position: relative;
   align-items: flex-start;
   flex-shrink: 0;
-  background-color: var(--dl-color-default-d9d9d9);
+  background-color: var(--dl-color-default-bg1);
 }
-.page-text {
+.forgot2-text {
   top: 60.02020263671875px;
   left: 62.61956787109375px;
   color: var(--dl-color-default-text1);
@@ -35,21 +31,19 @@
   font-stretch: normal;
   text-decoration: none;
 }
-
-.page-text:hover{
+.logo:hover{
   cursor: pointer;
 }
-
-.page-vector {
+.forgot2-vector {
   top: 64.38987731933594px;
   left: 26.5001220703125px;
   width: 28px;
   height: 26px;
   position: absolute;
 }
-.page-sec {
+.forgot2-sec {
   gap: 27.532058715820312px;
-  top: 90px;
+  top: 100px;
   left: 23.45294189453125px;
   width: 367px;
   height: 542px;
@@ -59,9 +53,9 @@
   flex-shrink: 0;
   justify-content: center;
 }
-.page-text02 {
+.forgot2-text02 {
   top: 65.69441986083984px;
-  left: 148.54705810546875px;
+  left: 69.54705810546875px;
   color: var(--dl-color-neutral-almostblack);
   height: auto;
   position: absolute;
@@ -74,7 +68,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.page-sec1 {
+.forgot2-sec1 {
   gap: 27.532058715820312px;
   top: 130.22647094726562px;
   left: 0px;
@@ -90,7 +84,7 @@
   justify-content: center;
   background-color: var(--dl-color-default-d9d9d9);
 }
-.page-sec2 {
+.forgot2-sec2 {
   gap: 9.177352905273438px;
   display: flex;
   align-self: stretch;
@@ -98,7 +92,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.page-text04 {
+.forgot2-text04 {
   color: var(--dl-color-neutral-almostblack);
   height: auto;
   font-size: 16.060367584228516px;
@@ -111,7 +105,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.page-sec3 {
+.forgot2-sec3 {
   display: flex;
   padding: 9.177352905273438px;
   align-self: stretch;
@@ -124,7 +118,7 @@
   justify-content: center;
   background-color: var(--dl-color-ios-bg);
 }
-.page-text06 {
+.forgot2-text06 {
   color: var(--dl-color-neutral-almostblack);
   height: auto;
   flex-grow: 1;
@@ -137,7 +131,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.page-sec4 {
+.forgot2-sec4 {
   gap: 9.177352905273438px;
   display: flex;
   align-self: stretch;
@@ -145,17 +139,11 @@
   flex-direction: column;
   justify-content: center;
 }
-.page-sec5 {
-  display: flex;
-  align-self: stretch;
-  align-items: center;
-  flex-shrink: 0;
-  justify-content: space-between;
-}
-.page-text08 {
+.forgot2-text08 {
   color: var(--dl-color-neutral-almostblack);
   height: auto;
   font-size: 16.060367584228516px;
+  align-self: stretch;
   font-style: Regular;
   text-align: left;
   font-family: Open Sans;
@@ -164,23 +152,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.page-text10 {
-  color: var(--dl-color-default-primary1);
-  height: auto;
-  font-size: 16.060367584228516px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Open Sans;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.page-text10:hover{
-  cursor: pointer;
-  color: var(--dl-color-default-primary2);
-}
-.page-sec6 {
+.forgot2-sec5 {
   display: flex;
   padding: 9.177352905273438px;
   align-self: stretch;
@@ -193,7 +165,7 @@
   justify-content: center;
   background-color: var(--dl-color-ios-bg);
 }
-.page-text12 {
+.forgot2-text10 {
   color: var(--dl-color-neutral-almostblack);
   height: auto;
   flex-grow: 1;
@@ -206,7 +178,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.page-sec7 {
+.forgot2-sec6 {
   display: flex;
   padding: 9.177352905273438px;
   align-self: stretch;
@@ -216,7 +188,12 @@
   justify-content: center;
   background-color: var(--dl-color-default-primary1);
 }
-.page-text14 {
+
+.forgot2-sec6:hover{
+  background-color: var(--dl-color-default-primary2);
+  cursor: pointer;
+}
+.forgot2-text12 {
   color: var(--dl-color-default-text1);
   height: auto;
   font-size: 18.354705810546875px;
@@ -228,69 +205,4 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.page-text16 {
-  color: rgba(17, 17, 17, 1);
-  height: auto;
-  font-size: 16.060367584228516px;
-  align-self: stretch;
-  font-style: Regular;
-  text-align: center;
-  font-family: Open Sans;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.page-text17 {
-  color: var(--dl-color-neutral-almostblack);
-}
 
-.textCreateNew{
-  color: var(--dl-color-default-primary1);
-
-}
-
-.textCreateNew:hover{
-  color: var(--dl-color-default-primary2);
-  cursor: pointer;
-}
-
-.transuiTop:hover{
-  cursor: pointer;
-
-}
-
-.button:hover{
-  cursor: pointer;
-  background-color: var(--dl-color-default-primary2);
-}
-
-@media(max-width: 991px) {
-  .page-i-phone-plus2 {
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    width: 483px;
-    margin: auto;
-    position: absolute;
-  }
-}
-@media(max-width: 767px) {
-  .page-i-phone-plus2 {
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    width: 477px;
-    margin: auto;
-    position: absolute;
-  }
-}
-@media(max-width: 479px) {
-  .page-i-phone-plus2 {
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    margin: auto;
-    position: absolute;
-  }
-}
