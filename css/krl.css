@@ -171,6 +171,29 @@ table {
   z-index: 3;
 }
 
+.krl-rectangle4114 table {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  table-layout: fixed;
+  z-index: 1;
+}
+
+.pagination {
+  bottom: 10px;
+  left: 140px;
+  position: absolute;
+  justify-content: center;
+  z-index: 2;
+}
+
+.pagination button {
+  margin: 0 5px;
+  border: 1px solid #ddd;
+}
+
+
+
 th, td {
   padding: 8px;
   text-align: left;

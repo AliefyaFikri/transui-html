@@ -284,6 +284,35 @@
 .logoutgroup{
   cursor: pointer;
 }
+
+.admingroup{
+  cursor: pointer;
+
+}
+
+.admintext {
+  top: 485px;
+  left: 66px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Light;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.adminlogo{
+    top: 488px;
+    left: 35px;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+}
 .profile-top-up {
   top: 314px;
   left: 307px;
