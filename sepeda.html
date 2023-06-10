@@ -57,7 +57,7 @@
   </head>
   <body>
     <div>
-      <link href="./css/bikun.css" rel="stylesheet" />
+      <link href="./css/sepeda.css" rel="stylesheet" />
 
       <div class="bikun-container">
         <div class="bikun-i-phone-plus8">
@@ -165,51 +165,38 @@
             <table id="myTable">
               <thead>
                 <tr>
-                  <th>Plate</th>
-                  <th>Departure</th>
-                  <th>Jalur</th>
+                  <th>Droploc</th>
+                  <th>Jumlah Sepeda</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td>6504</td>
                   <td>4:16 AM</td>
-                  <td>Merah</td>
                 </tr>
                 <tr>
                   <td>6503</td>
                   <td>4:16 AM</td>
-                  <td>Biru</td>
                 </tr>
                 <tr>
                   <td>6505</td>
                   <td>4:16 AM</td>
-                  <td>Merah</td>
                 </tr>
                 <tr>
                   <td>6506</td>
                   <td>4:16 AM</td>
-                  <td>Biru</td>
                 </tr>
                 <tr>
                   <td>6507</td>
                   <td>4:16 AM</td>
-                  <td>Merah</td>
                 </tr>
                 <tr>
                   <td>6508</td>
                   <td>4:16 AM</td>
-                  <td>Biru</td>
                 </tr>
                 <tr>
                   <td>6509</td>
                   <td>4:16 AM</td>
-                  <td>Merah</td>
-                </tr>
-                <tr>
-                  <td>6510</td>
-                  <td>4:16 AM</td>
-                  <td>Biru</td>
                 </tr>
                 <!-- Add more rows for other trains -->
               </tbody>
@@ -218,12 +205,13 @@
               <button id="prev-btn">Prev</button>
               <button id="next-btn">Next</button>
             </div>
+            <button id="pinjam-btn" class="pinjam-btn" onclick="window.location.href='sepeda2.html'">Pinjam</button>
           </div>
           <script>
             const table = document.getElementById('myTable');
             const prevButton = document.getElementById('prev-btn');
             const nextButton = document.getElementById('next-btn');
-            const rowsPerPage = 6;
+            const rowsPerPage = 4;
             let currentPage = 1;
       
             // Calculate the total number of pages
@@ -290,7 +278,7 @@
             />
           </div>
           <div class="bikun-container2">
-            <span class="bikun-text2"><span>Bikun</span></span>
+            <span class="bikun-text2">Sepeda</span>
             <div class="bikun-group4">
               <div class="bikun-group41">
                 <img
